@@ -10,5 +10,7 @@ To link ur project to git and link it to github:
  
 # In case of error's while pushing the GitHub commits:
 
-try: git push -u origin master
-try: git push -f origin master
+try: ``git push -u origin master``
+
+
+try: ``git push -f origin master``
