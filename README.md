@@ -13,4 +13,4 @@ To link ur project to git and link it to github:
 try: ``git push -u origin master``
 
 
-try: ``git push -f origin master`` this forsly pushes commits
+try: ``git push -f origin master`` this forcely pushes commits
