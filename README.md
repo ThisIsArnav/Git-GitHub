@@ -8,9 +8,9 @@ To link ur project to git and link it to github:
   
  3) Run ``"git add . && git commit -m Updated && git push``
  
-# In case of error's while pushing the GitHub commits:
+# In case of error's while pushing the Git push:
 
 try: ``git push -u origin master``
 
 
-try: ``git push -f origin master``
+try: ``git push -f origin master`` this forsly pushes commits
