@@ -6,7 +6,7 @@ To link ur project to git and link it to github:
   
   NOTE: You can get ur ``https`` like this: ``ur github repository url`` + ``.git`` at the end
   
- 3) Run ``"git add . && git commit -m Updated && git push``
+ 3) Run ``git add . && git commit -m Updated && git push``
  
 # In case of error's while pushing the Git push:
 
