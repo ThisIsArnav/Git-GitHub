@@ -26,6 +26,30 @@ try: ``git push -f origin master`` this forcely pushes commits
 3) Commit the file and push it to GitHub:
 
 ```
-$ git commit -m "add file.psd"
+$ git commit -m Updated
 $ git push
+```
+
+4) Push to another with in git
+
+Use fetch command in the local repo
+```
+$ git fetch
+```
+check that your branch has come to your local using
+
+```
+$ git branch
+```
+now change your branch using checkout
+
+```
+$ git checkout -b branch_name
+```
+do some changes then
+
+```
+$ git add .
+$ git commit -m "message"
+$ git push origin remote_branch_name
 ```
