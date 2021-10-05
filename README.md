@@ -14,3 +14,18 @@ try: ``git push -u origin master``
 
 
 try: ``git push -f origin master`` this forcely pushes commits
+
+# Git lfs
+
+1) Track all the files using git lfs using this command:
+``git lfs track``
+
+2) Add files to the repo:
+``git add .``
+
+3) Commit the file and push it to GitHub:
+
+```
+$ git commit -m "add file.psd"
+$ git push
+```
