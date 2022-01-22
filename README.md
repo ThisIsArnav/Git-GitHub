@@ -53,3 +53,28 @@ $ git add .
 $ git commit -m "message"
 $ git push origin remote_branch_name
 ```
+# Handling branches
+**Commiting to a different branch of same repo**
+
+Step-01: create and switch to the new branch B
+```console
+git checkout -b B
+```
+
+Step-02: Add changes in the new local branch
+
+```console
+git add . //or specific file(s)
+```
+
+Step-03: Commit the changes
+
+```console
+git commit -m "commit_message"
+```
+
+Step-04: Push changes to the new branch B. The below command will create a new branch B as well remotely
+
+```console
+git push origin B
+```
